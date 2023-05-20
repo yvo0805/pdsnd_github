@@ -111,7 +111,11 @@ def time_stats(df):
     print('-'*40)
     
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations and trip.
+    display most commonly used start station
+    display most commonly used end station
+    display most frequent combination of start station and end station trip
+    """
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
