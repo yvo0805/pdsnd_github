@@ -14,6 +14,19 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Statistics worked
+most common month
+most common day of week
+most common hour of day
+most common start station
+most common end station
+most common trip from start to end
+total travel time
+average travel time
+counts of each user type
+counts of each gender (only available for NYC and Chicago)
+earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
 ### Credits
 https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.any.html
