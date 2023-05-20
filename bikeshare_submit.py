@@ -33,6 +33,8 @@ def check_user_input(user_input,input_type):
 def get_filters(): 
     """
     Ask user to specify a city, month and day to analyze.
+    Type 'all' if no filter is required.
+    Deal with wrong value input.
 
     Returns:
         (str) city - name of the city to analyze
